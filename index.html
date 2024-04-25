@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="contain">
+            <div id="header">
+                <h1>Temperature Conversion</h1>
+                <p>Convert your temperature here !!</p>
+                <span>
+                    <h2>Please input temperature here</h2>
+                </span>
+            </div>
+            <div id="section">
+                <div>
+                    <input type="number" name="" class="value" id="input" value="0">
+                    <select name="T" id="selection_1" style="width: 100%;">
+                        <option value="Celsius" selected>Celcius</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Kelvin">Kelvin</option>
+                        <option value="Reamur">Reamur</option>
+                    </select>
+                </div>
+                <div class="large">=</div>
+                <div>
+                    <input type="number" name="" class="value" id="output" value="32.00">
+                    <select name="T" id="selection_2" style="width: 100%;">
+                        <option value="Celsius">Celcius</option>
+                        <option value="Fahrenheit" selected>Fahrenheit</option>
+                        <option value="Kelvin">Kelvin</option>
+                        <option value="Reamur">Reamur</option>
+                    </select>
+                </div>
+            </div>
+            <div id="button"">
+                <button type="button" class="btn" id="result">Convert</button>
+                <button type="button" class="btn" id="reset">Reset</button>
+            </div>
+            <div id="formula">
+                <p id="title">Formula</p>
+                </br>
+                <p id="howto">(0°C × 9/5) + 32 = 32.00°F</p>
+            </div>
+            <div id="error" style="display: flex; justify-content: center; margin-top: 15px;"></div>
+        </div>
+        <div id="credit">
+            Made with 🔥 by <a href="https://github.com/DrDevku" target="_blank" rel="noopener noreferrer">Dr. DevKu</a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
